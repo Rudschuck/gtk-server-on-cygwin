@@ -2,7 +2,7 @@
 
 
 
-Unfortunately the gtk-server cannot installed from its source under Cygwin. This is due to the fact that some Cygwin shared libraries have a perculiar naming convention. They are prefixed with 'Cyg' instead of 'lib'. Furthermore the extension of libraries can be either '.so' or '.dll'. The last inconsisty is that X11 and GTK libraries are stored in /bin. 
+Unfortunately the gtk-server (https://www.gtk-server.org/) cannot installed from its source under Cygwin. This is due to the fact that some Cygwin shared libraries have a perculiar naming convention. They are prefixed with 'Cyg' instead of 'lib'. Furthermore the extension of libraries can be either '.so' or '.dll'. The last inconsisty is that X11 and GTK libraries are stored in /bin. 
 
 For theses reasons some patches and hints are provided.
 
